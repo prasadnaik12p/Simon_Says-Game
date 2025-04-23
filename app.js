@@ -72,7 +72,7 @@ function checkAns(idx){
     level = 0;
     body.style.backgroundColor = "red";
 
-    h3.innerText = `High Score: ${Math.max(...highScore)}`;
+    h3.innerText = `High Score: ${1+Math.max(...highScore)}`;
    
     setTimeout(function(){
         body.style.backgroundColor = "white";
