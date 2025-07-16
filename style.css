@@ -1,8 +1,8 @@
-body{
+body {
     text-align: center;
 }
 
-.btn{
+.btn {
     height: 25vh;
     width: 25vw;
     border-radius: 20%;
@@ -11,28 +11,46 @@ body{
 }
 
 
-.btn-container{
+.btn-container {
     display: flex;
     justify-content: center;
 }
 
-.yellow{
+.yellow {
     background-color: #f99b45;
 }
-.red{
+
+.red {
     background-color: #d95980;
 }
-.green{
+
+.green {
     background-color: #63aac0;
 }
-.purple{
+
+.purple {
     background-color: #819ff9;
 }
 
-.flash{
+.flash {
     background-color: white;
 }
 
-.userflash{
+.userflash {
     background-color: green;
+}
+
+.Start {
+    width: 10vw;
+    height: 5vh;
+    background-color: greenyellow;
+    border-radius: 2px solid black;
+    border-radius: 50px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
